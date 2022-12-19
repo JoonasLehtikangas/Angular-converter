@@ -1,1 +1,32 @@
-<p>app-info works!</p>
+<div id="info">
+      <mat-grid-list cols="3" rowHeight="2:1">
+        <mat-grid-tile>
+        </mat-grid-tile>
+        <mat-grid-tile>
+          <mat-card id="my-info">
+            <mat-card-header>
+              <mat-card-title>Unit Converter assignment</mat-card-title>
+              <mat-card-subtitle>Joonas Lehtikangas</mat-card-subtitle>
+            </mat-card-header>
+            <mat-card-content>
+              <p> 
+                <br>This Unit Converter application was a course assigment in Web Frameworks course
+                in LAB University of applied sciences. Source code was written with TypeScript using Visual Studio Code.
+                UI was created with the help of Angular Material framework.
+              </p>
+            </mat-card-content>
+            <mat-card-footer>
+              <mat-card-actions>
+                <div id="homeLink">
+                  <a routerLink="/home">
+                    <i class="material-icons">home</i>
+                  </a>
+                </div>
+              </mat-card-actions>
+            </mat-card-footer>
+          </mat-card>
+        </mat-grid-tile>
+        <mat-grid-tile>
+        </mat-grid-tile>
+      </mat-grid-list>
+    </div>

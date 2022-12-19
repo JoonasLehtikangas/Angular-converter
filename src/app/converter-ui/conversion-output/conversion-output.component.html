@@ -1,1 +1,4 @@
-<p>conversion-output works!</p>
+<mat-form-field  [formGroup]="parentForm" appearance="fill">
+    <mat-label for="conversionOutput">{{conversionOutUnitText}}</mat-label>
+    <input  matInput type="number" formControlName="conversionOutput" name="conversionOutput" id="conversionOutput">
+</mat-form-field>

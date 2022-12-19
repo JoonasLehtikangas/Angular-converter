@@ -18,5 +18,4 @@ export class CategoryComponent implements OnInit{
   ngOnInit(): void {
     this.ConverterCategorieDefs = this.conversionService.getConverterCategories();
   }
-
 }
