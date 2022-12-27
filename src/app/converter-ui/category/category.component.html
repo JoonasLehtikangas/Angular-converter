@@ -2,8 +2,5 @@
     <mat-label for="categoryValue">Select category</mat-label>
     <mat-select formControlName="categoryValue" name="categoryValue" id="categoryValue">
       <mat-option *ngFor="let item of ConverterCategorieDefs" value="{{item.name}}">{{item.name}}</mat-option>
-      <!-- <mat-option value="Temperature">Temperature</mat-option>
-      <mat-option value="Distance">Distance</mat-option> 
-      <mat-option value="Weight">Weight</mat-option>  -->
     </mat-select>
 </mat-form-field>
